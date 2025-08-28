@@ -84,7 +84,7 @@ public class Main {
         System.out.println("\n--- Total dos Salários ---");
         System.out.println(decimalFormat.format(totalSalarios));        
 
-        // 3.12 Quantos salários mínimos cada funcionário ganha
+        // 3.12 Salários mínimos (cada funcionário)
         BigDecimal salarioMinimo = new BigDecimal("1212.00");
         System.out.println("\n--- Salários em relação ao salário mínimo ---");
         funcionarios.forEach(f -> {
