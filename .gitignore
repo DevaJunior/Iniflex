@@ -1,0 +1,9 @@
+# Ignorar JDK local
+src/oracleJdk-24/
+
+# Ignorar arquivos compilados Java
+*.class
+
+# Ignorar pastas de build
+bin/
+out/
