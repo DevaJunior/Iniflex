@@ -82,7 +82,7 @@ public class Main {
                 .map(Funcionario::getSalario)
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
         System.out.println("\n--- Total dos Salários ---");
-        System.out.println(decimalFormat.format(totalSalarios));
+        System.out.println(decimalFormat.format(totalSalarios));        
 
         // 3.12 Quantos salários mínimos cada funcionário ganha
         BigDecimal salarioMinimo = new BigDecimal("1212.00");
