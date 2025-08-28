@@ -76,6 +76,7 @@ public class Main {
         funcionarios.stream()
                 .sorted(Comparator.comparing(Funcionario::getNome))
                 .forEach(f -> System.out.println(f.getNome()));
+                
 
         // 3.11 Total dos salários
         BigDecimal totalSalarios = funcionarios.stream()
